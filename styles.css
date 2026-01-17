@@ -45,4 +45,9 @@ nav{
     font-weight: 700;
 }
 
-.nav__link--anchor-primary
+.nav__link--anchor-primary {
+    background-color: #6030b1;
+padding: 8px 20px;
+border-radius: 50px;
+color: white
+}
