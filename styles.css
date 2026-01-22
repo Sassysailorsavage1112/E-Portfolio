@@ -22,6 +22,14 @@ li {
     list-style: none;
 }
 
+.flex {
+    display: flex;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
 /* NAVIGATION BAR */
 
 nav{
@@ -69,4 +77,12 @@ transition:all 300ms ease;
 
 .about-me__img {
   width: 200px;
+}
+
+/* ABOUT ME */
+
+#about-me {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
