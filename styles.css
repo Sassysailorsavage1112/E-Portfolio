@@ -30,6 +30,12 @@ li {
     flex: 1;
 }
 
+.row {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 /* NAVIGATION BAR */
 
 nav{
@@ -85,4 +91,11 @@ transition:all 300ms ease;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+}
+
+.about-me__infor--container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
