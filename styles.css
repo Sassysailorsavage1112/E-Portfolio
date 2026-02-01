@@ -187,6 +187,20 @@ padding-top:  8px;
     max-width: 100px;
 }
 
+.language__img:hover {
+    filter: brightness(80%)
+    opacity: 0.86;
+    transform: scale(0.9);
+}
+
+.language__img {
+  transition: filter 300ms ease;
+}
+
+.language__img:hover {
+  filter: grayscale(100%);
+}
+
 .language {
     width: 25%;
 }
