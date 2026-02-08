@@ -279,3 +279,10 @@ padding-top:  8px;
 .language i {
   font-size: 64px;
 }
+
+
+/* PROJECTS */
+
+.project__img {
+    width: 100%;
+}
