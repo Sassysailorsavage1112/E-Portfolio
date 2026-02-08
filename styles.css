@@ -54,6 +54,8 @@ li {
     margin-bottom: 20px;
   }
 
+
+
 /* NAVIGATION BAR */
 
 nav{
@@ -163,7 +165,7 @@ padding-top:  8px;
     margin-bottom: 28px;
 }
 
-.about--me__link {
+.about-me__link {
     font-size: 20px;
     color: #242424;
     text-decoration: none;
@@ -189,7 +191,7 @@ padding-top:  8px;
 }
 
 .language__img:hover {
-    filter: brightness(80%)
+    filter: brightness(80%);
     opacity: 0.86;
     transform: scale(0.9);
 }
@@ -206,6 +208,8 @@ padding-top:  8px;
     width: 25%;
 }
 
+
+
 .language__img--wrapper {
     display: flex;
     justify-content: center;
@@ -218,5 +222,8 @@ padding-top:  8px;
     display:flex;
     width: 100%;
     flex-wrap: wrap;
+}
 
+.language__name {
+    position: absolute;
 }
