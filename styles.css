@@ -275,3 +275,7 @@ padding-top:  8px;
 .language__name {
   position: static; /* remove absolute */
 }
+
+.language i {
+  font-size: 64px;
+}
