@@ -642,3 +642,19 @@ padding: 8% 0;
 .footer__logo--popper {
     color: #fff;
 }
+
+.footer__logo--popper {
+    position: absolute;
+    right: 0;
+    top: 30px;
+    font-weight: 700;
+}
+
+.footer__anchor {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.footer__anchor:hover .footer--popper {
+transform: translateX(60px);
+}
