@@ -41,6 +41,7 @@ li {
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
+    padding: 0 12px;
 }
   .text--purple {
     color: #6030b1;
@@ -648,6 +649,7 @@ padding: 8% 0;
     right: 0;
     top: 30px;
     font-weight: 700;
+    opacity: 0;
 }
 
 .footer__anchor {
@@ -657,4 +659,6 @@ padding: 8% 0;
 
 .footer__anchor:hover .footer--popper {
 transform: translateX(60px);
+opacity: 1;
 }
+
