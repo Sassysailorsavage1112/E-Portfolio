@@ -667,7 +667,7 @@ padding: 8% 0;
     position: relative;
 }
 
-.footer__anchor:hover .footer--popper {
+.footer__anchor:hover .footer__logo--popper {
 transform: translateX(60px);
 opacity: 1;
 }
